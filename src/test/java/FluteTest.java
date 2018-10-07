@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import static junit.framework.TestCase.assertEquals;
+
 public class FluteTest {
     Flute flute;
 
@@ -11,7 +13,9 @@ public class FluteTest {
     }
 
     @Test
-    public String play() {
-        return "bing";
+    public void canPlay() {
+        assertEquals("bing", flute.play());
     }
+
+
 }
