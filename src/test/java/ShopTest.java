@@ -27,6 +27,12 @@ public class ShopTest {
     @Test
     public void shopCanAddMusicStuff() {
         shop.add(flute);
-        assertEquals("flute", shop.getStockCount());
+        assertEquals(1, shop.getStockCount());
+    }
+
+    @Test
+    public void canRemoveMusicStuff() {
+        shop.remove(flute);
+        assertEquals(0, shop.getStockCount());
     }
 }

@@ -24,4 +24,8 @@ public class Shop {
     public void add(Playable musicStuff) {
         this.musicStuff.add(musicStuff);
     }
+
+    public void remove(Flute flute) {
+        this.musicStuff.remove(musicStuff);
+    }
 }
