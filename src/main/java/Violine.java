@@ -2,8 +2,8 @@ public class Violine extends Instrument implements Playable, Sellable  {
 
     Chords chords;
 
-    public Violine(String modelName, String color, String material, String body, String keyboard) {
-        super(modelName, color, material, body, keyboard);
+    public Violine(String modelName, String color, String material, String body, String keyboard, double buyingPrice, double sellingPrice) {
+        super(modelName, color, material, body, keyboard, buyingPrice, sellingPrice);
         this.chords = chords;
     }
 

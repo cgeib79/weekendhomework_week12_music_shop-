@@ -9,7 +9,7 @@ public class FluteTest {
     @Before
     public void before()  {
 
-        flute = new Flute("Amadeus", "black", "wood", "flute-like", "opening-like");
+        flute = new Flute("Amadeus", "black", "wood", "flute-like", "opening-like", 12.00, 24.00);
     }
 
     @Test
@@ -42,4 +42,8 @@ public class FluteTest {
         assertEquals("bing", flute.play());
     }
 
+    @Test
+    public void canGetMarkUp() {
+        assertEquals(12.00, flute.getMarkUp())
+    }
 }

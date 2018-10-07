@@ -5,8 +5,8 @@ public class Flute extends Instrument implements Playable, Sellable {
     Tube tube;
 
 
-    public Flute(String modelName, String color, String material, String body, String keyboard) {
-        super(modelName, color, material, body, keyboard);
+    public Flute(String modelName, String color, String material, String body, String keyboard, double buyingPrice, double sellingPrice) {
+        super(modelName, color, material, body, keyboard, buyingPrice, sellingPrice);
         this.tube = tube;
     }
 
@@ -20,8 +20,6 @@ public class Flute extends Instrument implements Playable, Sellable {
     }
 
 
-    public double markUp() {
-        return markUp();
-    }
+
 }
 

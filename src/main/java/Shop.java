@@ -4,9 +4,11 @@ public class Shop {
     private ArrayList<Playable> musicStuff;
     private String name;
 
+
     public Shop(ArrayList<Playable> musicStuff, String name) {
         this.musicStuff = musicStuff;
         this.name = name;
+
     }
 
     public ArrayList<Playable> getMusicStuff() {
@@ -28,4 +30,6 @@ public class Shop {
     public void remove(Flute flute) {
         this.musicStuff.remove(musicStuff);
     }
+
+
 }

@@ -2,8 +2,8 @@ public class Piano extends Instrument implements Playable, Sellable {
 
     Pedals pedals;
 
-    public Piano(String modelName, String color, String material, String body, String keyboard) {
-        super(modelName, color, material, body, keyboard);
+    public Piano(String modelName, String color, String material, String body, String keyboard, double buyingPrice, double sellingPrice) {
+        super(modelName, color, material, body, keyboard, buyingPrice, sellingPrice);
         this.pedals = pedals;
     }
 

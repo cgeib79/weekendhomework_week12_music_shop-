@@ -1,3 +1,3 @@
 public interface Sellable {
-    double markUp();
+    double markUp ();
 }
